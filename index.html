@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="container">
+        <div class="row mt-1 bg-light">
+            <div class="col-12 col-md-8 d-flex justify-content-between ">
+                <div>
+                    <img style="width:50px; height:50px;" src="./pexels-photo-255379.jpeg" alt="">
+                    <a class="btn" href="#">
+                        <h3>comany</h3>
+                    </a>
+                </div>
+                <div class="d-block d-md-none">
+                    <button id="btn1" type="button" class="btn btn-sm btn-outline-success mt-2">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="div1" class="col 12 col-md-4 d-md-block">
+                <ul class="list-unstyled mt-2 d-flex flex-column flex-md-row justify-content-between">
+                    <li>
+                        <a href="#/home">home</a>
+                    </li>
+                    <li>
+                        <a href="#/home">home</a>
+                    </li>
+                    <li>
+                        <a href="#/home">home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div><i class="fas fa-folder-open text-success"></i></div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('#btn1').click(function(){
+            $("#div1").slideToggle(3000);
+        });
+            
+    });
+    </script>
+</body>
+
+</html>

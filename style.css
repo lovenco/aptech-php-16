@@ -1,0 +1,8 @@
+.Container__Bg-img{
+    background-image: url(./pexels-photo-1181275.jpeg);
+    height: 400px;
+    width: 1140px;
+}
+#div1{
+    display: none;
+}
